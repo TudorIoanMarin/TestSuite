@@ -1,0 +1,17 @@
+{
+  "name": "mdbboilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate project",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test-watch" : "nodemon --exec 'mocha -R min'",
+    "test-specific": "mocha -g 'Update records'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^3.4.2",
+    "mongoose": "^4.10.8"
+  }
+}
